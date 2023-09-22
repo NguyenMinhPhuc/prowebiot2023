@@ -1,0 +1,14 @@
+
+h2 {
+    color: rgb(10, 49, 131);
+}
+/*định dạng ID*/
+#container {
+    width: 50%;
+    margin: 60px auto;
+
+}
+
+.title{
+    color: red;
+}

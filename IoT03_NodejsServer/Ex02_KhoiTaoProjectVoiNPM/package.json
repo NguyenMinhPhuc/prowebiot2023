@@ -1,0 +1,15 @@
+{
+  "name": "ex02_khoitaoprojectvoinpm",
+  "version": "1.0.0",
+  "description": "Vi du ve khoi tao project bang lenh npm init",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "IoT"
+  ],
+  "author": "Nguyen Minh Phuc",
+  "license": "MIT"
+}

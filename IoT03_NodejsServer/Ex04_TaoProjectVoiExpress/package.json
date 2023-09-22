@@ -1,0 +1,14 @@
+{
+  "name": "ex04_taoprojectvoiexpress",
+  "version": "1.0.0",
+  "description": "Khởi tạo project với Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nguyễn Minh Phúc",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

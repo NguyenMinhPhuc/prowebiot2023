@@ -1,0 +1,150 @@
+<!--html:5-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+    <title>About</title>
+    <style>
+        p {
+            text-align: justify;
+            font-size: 1.2em;
+
+        }
+
+        h2 {
+            color: rgb(10, 49, 131);
+        }
+
+        /*định dạng ID*/
+        #container {
+            width: 90%;
+            margin: 60px auto;
+
+        }
+
+        table {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            width: 100%;
+            border-collapse: collapse;
+            /*dùng 1 nét cho border*/
+            border: 1px solid black;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            text-align: left;
+            padding: 5px;
+        }
+
+        th {
+            text-align: center;
+            background-color: aqua;
+            font-size: 1.5em;
+        }
+
+        #content {
+            width: 90%;
+            margin: 40px auto;
+        }
+
+        tr:nth-child(even) {
+            background-color: #DDDDDD;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <header style="background-color:#00BFFF;font-size: 2em;padding: 20px; color: white;">
+            The Black Goose Bistro News
+        </header>
+        <!--thanh điều hướng của trang (menu)-->
+        <nav style="font-size: 1.5rem;padding:20px;">
+            <a href="#">Home</a>&nbsp; &nbsp;|&nbsp; &nbsp;
+            <a href="#">About</a>&nbsp; &nbsp;|&nbsp; &nbsp;
+            <a href="#">Couscous</a>&nbsp; &nbsp;|&nbsp; &nbsp;
+            <a href="#">Linguine</a>&nbsp; &nbsp;|&nbsp; &nbsp;
+            <a href="#">Salmon</a> &nbsp; &nbsp;|&nbsp; &nbsp;
+            <a href="#">Tapenade</a>
+        </nav>
+        <hr style="height: 1px; background-color:blue;">
+
+        <!--Nội dung chính của trang (main)-->
+        <main>
+            <div id="content">
+                <h2>Customer List</h2>
+
+                <table>
+                    <caption style="background-color:#5F9EA0;padding: 10px;font-size: 1.5em;font-weight: bolder;">
+                        Monthly saving</caption>
+                    <tr>
+                        <th>Company</th>
+                        <th>Contact</th>
+                        <th>Country</th>
+                    </tr>
+                    <tr>
+                        <td>Alfreds futterkiste</td>
+                        <td>Maria Anders</td>
+                        <td>Germany</td>
+                    </tr>
+
+                    <tr>
+                        <td>Centro comercial Moctezuma</td>
+                        <td>Francisco Chang</td>
+                        <td>Mexico</td>
+                    </tr>
+
+                    <tr>
+                        <td>Ernst Handel</td>
+                        <td>Roland Mendel</td>
+                        <td>Austria</td>
+                    </tr>
+
+                    <tr>
+                        <td>Island Trading</td>
+                        <td>Helen Bennett</td>
+                        <td>UK</td>
+                    </tr>
+
+                    <tr>
+                        <td>Laughing Bacchus Winecellars</td>
+                        <td>Yoshi tannamuri</td>
+                        <td>Canada</td>
+                    </tr>
+
+                    <tr>
+                        <td>Magazzine Alimentari Riuniti</td>
+                        <td>Giovanni Rovelli</td>
+                        <td>Italy</td>
+                    </tr>
+                </table>
+            </div>
+
+
+
+        </main>
+
+        <!--Chân trang-->
+        <footer style="background-color: #00BFFF;padding: 5px 5px;">
+            <p><strong><ins> <mark>Location:</mark> </ins></strong> <br>
+                Baker’s Corner, Seekonk, MA</p>
+
+            <p><strong><ins> <mark>Hours:</mark> </ins></strong> <br>
+                11pm Tuesday to Saturday, 11am to</p>
+
+            <p>All content © copyright 2021, By <strong>Black Goose Bistro</strong> and <strong>Robbins</strong> </p>
+        </footer>
+    </div>
+
+
+</body>
+
+</html>

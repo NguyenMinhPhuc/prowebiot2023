@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> <%=title%> </title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Xin chào: <%=name%> </h1>
+
+    <h2>Danh sách thành viên</h2>
+    <% for(let p of persons){%>
+        <p>
+            fullName: <b><%=p.fullname%></b><br>
+            age: <b><%-p.age%></b>
+        </p>
+        <hr>
+        <%}%>
+
+</body>
+</html>

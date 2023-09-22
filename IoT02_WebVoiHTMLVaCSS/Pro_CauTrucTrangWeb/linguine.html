@@ -1,0 +1,116 @@
+<!--html:5-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>About</title>
+    <style>
+        p {
+            text-align: justify;
+            font-size: 1.2em;
+
+        }
+
+        h2 {
+            color: rgb(10, 49, 131);
+        }
+
+        /*định dạng ID*/
+        #container {
+            width: 90%;
+            margin: 60px auto;
+
+        }
+
+        .icon-bar {
+  width: 100%; /* Full-width */
+  background-color: #555; /* Dark-grey background */
+  overflow: auto; /* Overflow due to float */
+}
+
+.icon-bar a {
+  float: left; /* Float links side by side */
+  text-align: center; /* Center-align text */
+  width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
+  padding: 12px 0; /* Some top and bottom padding */
+  transition: all 0.3s ease; /* Add transition for hover effects */
+  color: white; /* White text color */
+  font-size: 36px; /* Increased font size */
+}
+
+.icon-bar a:hover {
+  background-color: #000; /* Add a hover color */
+}
+
+.active {
+  background-color: #04AA6D; /* Add an active/current color */
+}
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <header style="background-color:#00BFFF;font-size: 2em;padding: 20px; color: white;">
+            The Black Goose Bistro News
+        </header>
+        <!--thanh điều hướng của trang (menu)-->
+        <nav >
+            <div class="icon-bar">
+                <a class="active" href="#"><i class="fa fa-home">Home</i></a>
+                <a href="#"><i class="fa fa-search"></i></a>
+                <a href="#"><i class="fa fa-envelope"></i></a>
+                <a href="#"><i class="fa fa-globe"></i></a>
+                <a href="#"><i class="fa fa-trash"></i></a>
+              </div>
+        </nav>
+        <hr style="height: 1px; background-color:blue;">
+
+        <!--Nội dung chính của trang (main)-->
+        <main>
+            <!--Order list (ol)
+            Unorder list (ul)
+
+        list item  (li)-->
+            <h2>Danh sách các khoa:</h2>
+            <ol type="A">
+                <li>Khoa Điện điện tử</li>
+                <li>Khoa CNTT</li>
+                <li>Khoa Kế toán</li>
+            </ol>
+
+            <h3>Liệt kê sở thích</h3>
+            <!--ul>li*3-->
+            <ul style="list-style-type:square;">
+                <li><a href="#">Đá bóng</a> </li>
+                <li>Cầu lông</li>
+                <li>Bơi lội</li>
+            </ul>
+<dd>
+    <dt></dt>
+</dd>
+
+
+        </main>
+
+        <!--Chân trang-->
+        <footer style="background-color: #00BFFF;padding: 5px 5px;">
+            <p><strong><ins> <mark>Location:</mark> </ins></strong> <br>
+                Baker’s Corner, Seekonk, MA</p>
+
+            <p><strong><ins> <mark>Hours:</mark> </ins></strong> <br>
+                11pm Tuesday to Saturday, 11am to</p>
+
+            <p>All content © copyright 2021, By <strong>Black Goose Bistro</strong> and <strong>Robbins</strong> </p>
+        </footer>
+    </div>
+
+
+</body>
+
+</html>
