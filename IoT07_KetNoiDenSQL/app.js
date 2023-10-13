@@ -19,8 +19,10 @@ app.get('/',(req,res)=>{
 });
 
 var department=require('./models/department');
+var employee=require('./models/employee')
 //department(app)
 app.use('/department',department);
+app.use('/employee',employee)
 
 
 app.listen(port,()=>console.info(`web server running on ${port}`));

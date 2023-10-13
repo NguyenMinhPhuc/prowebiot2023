@@ -1,0 +1,23 @@
+<h2>Employees</h2>
+<table>
+    <tr>
+        <th>EmpID</th>
+        <th>EmpName</th>
+        <th>DepartmentID</th>
+
+    </tr>
+    <% employees.forEach(function(u){%>
+        <tr>
+            <td>
+                <%=u.EmpID%>
+            </td>
+            <td>
+                <%=u.EmpName%>
+            </td>
+            <td>
+                <%=u.DepartmentID%>
+            </td>
+
+        </tr>
+    <%});%>
+</table>
