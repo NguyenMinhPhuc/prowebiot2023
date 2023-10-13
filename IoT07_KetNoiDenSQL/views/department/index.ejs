@@ -1,0 +1,23 @@
+<h2>department</h2>
+<table>
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Description</th>
+        <th>Images</th>
+    </tr>
+    <% departments.forEach(function(u){%>
+        <tr>
+            <td>
+                <%=u.id%>
+            </td>
+            <td>
+                <%=u.name%>
+            </td>
+            <td>
+                <%=u.description%>
+            </td>
+            <td><img src="<%=u.image%>" alt="images"> </td>
+        </tr>
+    <%});%>
+</table>
